@@ -1,5 +1,7 @@
 package org.formation.coffee_hexa_simple.domain.exception;
 
+import org.formation.coffee_hexa_simple.domain.model.CoffeeId;
+
 public class CoffeeNotFoundException extends DomainException{
     private final CoffeeId coffeeId;
 
